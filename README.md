@@ -29,6 +29,8 @@
   
   - After you have download the datasets, copy ImageNet(here I only use 3137 images) datsets to ***/data/train***, then you have ***/data/train/ImageNet*** path, and training images are stored in ***/data/train/ImageNet***
   
+  - I crop image into **256*256 resolution**, actually you can crop them according to your own.
+  
   ### val data
   - Set5 dataset is used as **val data**, you can download it [here]().
   
@@ -48,11 +50,19 @@
       $ python main.py --is_training=False --is_testing=True
       
 # Experimental Results
-  
   - Factor 4, two shuffle layers is used.
   
-  |whole test image||
+  |sampling image|sampling image|
+  |:-----------------:|:----------------:|
+  |![Alt test](/data/64_64_1.png)|![Alt test](/data/64_64_2.png)|
+  |64*64 resolution|64*64 resolution||
+  |![Alt test](/data/128_128_1.png)|![Alt test](/data/128_128_2.png)|
+  |128*128 resolution|128*128 resolution||
+  
+  |whole test image|
+  |:-----------------:|
   |![Alt test](/data/Set14_test.png)|
+  |256*256 resolution||
   
   | low resolution| high resolution GT| high resolution GEN|
   | ![Alt test]()| ![Alt test]()| ![Alt test]()|
