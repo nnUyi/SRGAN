@@ -40,7 +40,12 @@
   - Set14 dataset is used as **test data**, you can download it [here]().
   
   - After you download **Set14**, please store it in ***/data/val/***, then you have ***/data/train/Set14*** path, and val images are stored in ***/data/train/Set14***
-  
+  |sampling image|sampling image|
+  |:-----------------:|:----------------:|
+  |![Alt test](/data/64_64_1.png)|![Alt test](/data/64_64_2.png)|
+  |64*64 resolution|64*64 resolution||
+  |![Alt test](/data/128_128_1.png)|![Alt test](/data/128_128_2.png)|
+  |128*128 resolution|128*128 resolution||
   ## training
   
       $ python main.py --is_training=True --is_testing=False
@@ -64,6 +69,13 @@
   | ![Alt test](/data/Set14_gt_lr_7.png)| ![Alt test](/data/Set14_gt_hr_7.png)| ![Alt test](/data/Set14_test_hr_7.png)||
   
 ## Factor 4(whole test images)
+
+  |sampling image|sampling image|
+  |:-----------------:|:----------------:|
+  |![Alt test](/data/64_64_1.png)|![Alt test](/data/64_64_2.png)|
+  |64*64 resolution|64*64 resolution||
+  |![Alt test](/data/128_128_1.png)|![Alt test](/data/128_128_2.png)|
+  |128*128 resolution|128*128 resolution||
   
   |whole test images|
   |:-----------------:|
