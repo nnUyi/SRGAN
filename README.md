@@ -59,7 +59,7 @@
   
   | low resolution| high resolution GT| high resolution GEN|
   |:-----------------:|:-----------------:|:-----------------:|
-  | ![Alt test](/data/Set14_gt_lr_0.png)| ![Alt test](/data/Set14_gt_hr_0.png)| ![Alt test](/data/Set14_test_hr_0.png)||
+  |![Alt test](/data/Set14_gt_lr_0.png)|![Alt test](/data/Set14_gt_hr_0.png)|![Alt test](/data/Set14_test_hr_0.png)||
   | ![Alt test](/data/Set14_gt_lr_1.png)| ![Alt test](/data/Set14_gt_hr_1.png)| ![Alt test](/data/Set14_test_hr_1.png)||
   | ![Alt test](/data/Set14_gt_lr_2.png)| ![Alt test](/data/Set14_gt_hr_2.png)| ![Alt test](/data/Set14_test_hr_2.png)||
   | ![Alt test](/data/Set14_gt_lr_3.png)| ![Alt test](/data/Set14_gt_hr_3.png)| ![Alt test](/data/Set14_test_hr_3.png)||
@@ -70,14 +70,7 @@
   
 ## Factor 4(whole test images)
 
-  |sampling image|sampling image|
-  |:-----------------:|:----------------:|
-  |![Alt test](/data/64_64_1.png)|![Alt test](/data/64_64_2.png)|
-  |64*64 resolution|64*64 resolution||
-  |![Alt test](/data/128_128_1.png)|![Alt test](/data/128_128_2.png)|
-  |128*128 resolution|128*128 resolution||
-  
-  |whole test images|
+  |sampling image|
   |:-----------------:|
   |![Alt test](/data/Set14_test.png)|
   |256*256 resolution left:GT right:GEN||
