@@ -8,7 +8,7 @@
   - numpy 1.13.1
   - scipy 0.17.0
   
-# Usage
+# Usages
   ## downlaod repo
   - download this repo by the following instruction:
   
@@ -54,8 +54,6 @@
   
   | low resolution| high resolution GT| high resolution GEN|
   |:-----------------:|:-----------------:|:-----------------:|
-  | ![Alt test](/data/Set14_gt_lr_2.png)| ![Alt test](/data/Set14_gt_hr_2.png)| ![Alt test](/data/Set14_test_hr_2.png)||
-  | ![Alt test](/data/Set14_gt_lr_2.png)| ![Alt test](/data/Set14_gt_hr_2.png)| ![Alt test](/data/Set14_test_hr_2.png)||
   | ![Alt test](/data/Set14_gt_lr_2.png)| ![Alt test](/data/Set14_gt_hr_2.png)| ![Alt test](/data/Set14_test_hr_2.png)||
   | ![Alt test](/data/Set14_gt_lr_3.png)| ![Alt test](/data/Set14_gt_hr_3.png)| ![Alt test](/data/Set14_test_hr_3.png)||
   | ![Alt test](/data/Set14_gt_lr_4.png)| ![Alt test](/data/Set14_gt_hr_4.png)| ![Alt test](/data/Set14_test_hr_4.png)||
