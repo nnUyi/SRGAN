@@ -50,7 +50,8 @@
 # Experimental Results
   
   - Factor 4, two shuffle layers is used.
-  |whole test image|
+  
+  |whole test image||
   |![Alt test](/data/Set14_test.png)|
   
   | low resolution| high resolution GT| high resolution GEN|
