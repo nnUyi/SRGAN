@@ -10,20 +10,35 @@
   
 # Usage
   ## downlaod repo
+  - download this repo by the following instruction:
+  
       $ git clone https://github.com/nnuyi/SRGAN.git
       $ cd SRGAN
       
   ## download datasets
-    - In this repo, I use parts of [ImageNet]() datasets, [here] you can download the datasets that I used. After you have download the datasets, then **data directory** need to be created as following:
-    
+  - Firstly, you need to make some directories in the root path(in SRGAN directory)
+  
       $ mkdir data
       $ cd data
       $ mkdir train
       $ mkdir val
       $ mkdir test   
       
-    - Then, copy ImageNet(here I only use 3137 images) datsets to /data/train, then you have /data/train/ImageNet path, and training images are stored in /data/train/ImageNet
-    
+  ### train data
+  - In this repo, I use parts of [ImageNet]() datasets as **train data**, [here] you can download the datasets that I used. 
+  
+  - After you have download the datasets, copy ImageNet(here I only use 3137 images) datsets to /data/train, then you have /data/train/ImageNet path, and training images are stored in /data/train/ImageNet
+  
+  ### val data
+  - Set5 dataset is used as **val data**, you can download it [here]().
+  
+  - After you download **Set5**, please store it in /data/val/, then you have /data/train/Set5 path, and val images are stored in /data/train/Set5
+  
+  ### test data
+  - Set14 dataset is used as **test data**, you can download it [here]().
+  
+  - After you download **Set14**, please store it in /data/val/, then you have /data/train/Set14 path, and val images are stored in /data/train/Set14
+  
 # Experimental Results
 
 # Contacts
