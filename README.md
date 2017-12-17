@@ -54,7 +54,9 @@
   |whole test image|
   |:-----------------:|
   |![Alt test](/data/Set14_test.png)|
-  |256*256 resolution<br/>left:GT<br/>right:GEN||
+  |256*256 resolution left:GT right:GEN||
+  
+  - test images
   
   | low resolution| high resolution GT| high resolution GEN|
   |:-----------------:|:-----------------:|:-----------------:|
