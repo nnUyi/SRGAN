@@ -50,7 +50,7 @@
       $ python main.py --is_training=False --is_testing=True
       
 # Experimental Results
-  - Factor 4, two shuffle layers is used.
+  ## Factor 4(two shuffle layers is used)
   
   | low resolution| high resolution GT| high resolution GEN|
   |:-----------------:|:-----------------:|:-----------------:|
@@ -63,7 +63,7 @@
   | ![Alt test](/data/Set14_gt_lr_6.png)| ![Alt test](/data/Set14_gt_hr_6.png)| ![Alt test](/data/Set14_test_hr_6.png)|
   | ![Alt test](/data/Set14_gt_lr_7.png)| ![Alt test](/data/Set14_gt_hr_7.png)| ![Alt test](/data/Set14_test_hr_7.png)|
   
-  - The whole test iamges
+  ## Factor 4(whole test images)
   |whole test images|
   |:-----------------:|
   |![Alt test](/data/Set14_test.png)|
