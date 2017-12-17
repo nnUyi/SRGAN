@@ -34,12 +34,12 @@
   ### val data
   - Set5 dataset is used as **val data**, you can download it [here]().
   
-  - After you download **Set5**, please store it in ***/data/val/***, then you have ***/data/train/Set5*** path, and val images are stored in ***/data/train/Set5***
+  - After you download **Set5**, please store it in ***/data/val/***, then you have ***/data/val/Set5*** path, and val images are stored in ***/data/val/Set5***
   
   ### test data
   - Set14 dataset is used as **test data**, you can download it [here]().
   
-  - After you download **Set14**, please store it in ***/data/val/***, then you have ***/data/train/Set14*** path, and val images are stored in ***/data/train/Set14***
+  - After you download **Set14**, please store it in ***/data/test/***, then you have ***/data/test/Set14*** path, and val images are stored in ***/data/test/Set14***
  
   ## training
   
@@ -67,6 +67,11 @@
   |:-----------------:|
   |![Alt test](/data/Set14_test.png)|
   |256*256 resolution left:GT right:GEN||
-  
+
+# References
+  - [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
+Network](https://arxiv.org/abs/1609.04802)
+  - [Is the deconvolution layer the same as a convolutional layer](https://arxiv.org/pdf/1609.07009.pdf)
+
 # Contacts
   Email:computerscienceyyz@163.com
