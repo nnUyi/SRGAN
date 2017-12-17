@@ -39,12 +39,19 @@
   
   - After you download **Set14**, please store it in ***/data/val/***, then you have ***/data/train/Set14*** path, and val images are stored in ***/data/train/Set14***
   
+  ## training
+  
+      $ python main.py --is_training=True --is_testing=False
+      
+  ## testing
+  
+      $ python main.py --is_training=False --is_testing=True
+      
 # Experimental Results
   
   - Factor 4, two shuffle layers is used.
-  
   |whole test image|
-  | ![Alt test](/data/Set14_test.png)||
+  |![Alt test](/data/Set14_test.png)|
   
   | low resolution| high resolution GT| high resolution GEN|
   | ![Alt test]()| ![Alt test]()| ![Alt test]()|
