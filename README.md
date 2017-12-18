@@ -32,14 +32,14 @@
   - I crop image into **256*256 resolution**, actually you can crop them according to your own.
   
   ### val data
-  - Set5 dataset is used as **val data**, you can download it [here](https://pan.baidu.com/s/1dFyFFSt).
+  - **Set5** dataset is used as **val data**, you can download it [here](https://pan.baidu.com/s/1dFyFFSt).
   
-  - After you download **Set5**, please store it in ***/data/val/***, then you have ***/data/val/Set5*** path, and val images are stored in ***/data/val/Set5***
+  - After you download **Set5**, please store it in ***/data/val/*** , then you have ***/data/val/Set5*** path, and val images are stored in ***/data/val/Set5***
   
   ### test data
-  - Set14 dataset is used as **test data**, you can download it [here](https://pan.baidu.com/s/1nvmUkBn).
+  - **Set14** dataset is used as **test data**, you can download it [here](https://pan.baidu.com/s/1nvmUkBn).
   
-  - After you download **Set14**, please store it in ***/data/test/***, then you have ***/data/test/Set14*** path, and val images are stored in ***/data/test/Set14***
+  - After you download **Set14**, please store it in ***/data/test/*** , then you have ***/data/test/Set14*** path, and val images are stored in ***/data/test/Set14***
  
   ## training
   
