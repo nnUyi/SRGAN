@@ -1,6 +1,6 @@
 # SRGAN
   - An implement of [SRGAN](https://arxiv.org/abs/1609.04802)(Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network) for tensorflow version.
-  - In this repo, vgg19 is not used, instead, MSE is ued to train SRResNet. If you want to use vgg19 to calculate the content loss, [here]() you can download model that trained in ImageNet. Then you just need to load to your model when training time.
+  - In this repo, vgg19 is not used, instead, MSE is ued to train SRResNet. If you want to use vgg19 to calculate the content loss, you can download model that trained in ImageNet. Then you just need to load to your model during training phase.
 
 # Requirements
   - tensorflow 1.3.0
